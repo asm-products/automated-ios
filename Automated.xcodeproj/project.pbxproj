@@ -8,11 +8,11 @@
 
 /* Begin PBXBuildFile section */
 		053A67271A1FEFC400ED6A0F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 053A67261A1FEFC400ED6A0F /* AppDelegate.swift */; };
-		053A67291A1FEFC400ED6A0F /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 053A67281A1FEFC400ED6A0F /* ViewController.swift */; };
 		053A672C1A1FEFC400ED6A0F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 053A672A1A1FEFC400ED6A0F /* Main.storyboard */; };
 		053A672E1A1FEFC400ED6A0F /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 053A672D1A1FEFC400ED6A0F /* Images.xcassets */; };
 		053A67311A1FEFC400ED6A0F /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 053A672F1A1FEFC400ED6A0F /* LaunchScreen.xib */; };
 		053A673D1A1FEFC500ED6A0F /* AutomatedTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 053A673C1A1FEFC500ED6A0F /* AutomatedTests.swift */; };
+		053A67491A2136C000ED6A0F /* ScenarioViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 053A67481A2136C000ED6A0F /* ScenarioViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -29,13 +29,13 @@
 		053A67211A1FEFC400ED6A0F /* Automated.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Automated.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		053A67251A1FEFC400ED6A0F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		053A67261A1FEFC400ED6A0F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		053A67281A1FEFC400ED6A0F /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		053A672B1A1FEFC400ED6A0F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		053A672D1A1FEFC400ED6A0F /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		053A67301A1FEFC400ED6A0F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
 		053A67361A1FEFC500ED6A0F /* AutomatedTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AutomatedTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		053A673B1A1FEFC500ED6A0F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		053A673C1A1FEFC500ED6A0F /* AutomatedTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AutomatedTests.swift; sourceTree = "<group>"; };
+		053A67481A2136C000ED6A0F /* ScenarioViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ScenarioViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -77,8 +77,8 @@
 		053A67231A1FEFC400ED6A0F /* Automated */ = {
 			isa = PBXGroup;
 			children = (
+				053A67461A21364300ED6A0F /* View Controller */,
 				053A67261A1FEFC400ED6A0F /* AppDelegate.swift */,
-				053A67281A1FEFC400ED6A0F /* ViewController.swift */,
 				053A672A1A1FEFC400ED6A0F /* Main.storyboard */,
 				053A672D1A1FEFC400ED6A0F /* Images.xcassets */,
 				053A672F1A1FEFC400ED6A0F /* LaunchScreen.xib */,
@@ -110,6 +110,22 @@
 				053A673B1A1FEFC500ED6A0F /* Info.plist */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		053A67461A21364300ED6A0F /* View Controller */ = {
+			isa = PBXGroup;
+			children = (
+				053A67471A21365A00ED6A0F /* Scenario */,
+			);
+			name = "View Controller";
+			sourceTree = "<group>";
+		};
+		053A67471A21365A00ED6A0F /* Scenario */ = {
+			isa = PBXGroup;
+			children = (
+				053A67481A2136C000ED6A0F /* ScenarioViewController.swift */,
+			);
+			name = Scenario;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -212,7 +228,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				053A67291A1FEFC400ED6A0F /* ViewController.swift in Sources */,
+				053A67491A2136C000ED6A0F /* ScenarioViewController.swift in Sources */,
 				053A67271A1FEFC400ED6A0F /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -405,6 +421,7 @@
 				053A67421A1FEFC500ED6A0F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		053A67431A1FEFC500ED6A0F /* Build configuration list for PBXNativeTarget "AutomatedTests" */ = {
 			isa = XCConfigurationList;
@@ -413,6 +430,7 @@
 				053A67451A1FEFC500ED6A0F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
