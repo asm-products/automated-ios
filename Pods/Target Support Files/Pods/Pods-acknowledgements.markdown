@@ -1,6 +1,11 @@
 # Acknowledgements
 This application makes use of the following third party libraries:
 
+## DPHue
+
+Public Domain
+
+
 ## PAPreferences
 
 Copyright (c) 2014, Denis Hennessy (Peer Assembly - http://peerassembly.com)

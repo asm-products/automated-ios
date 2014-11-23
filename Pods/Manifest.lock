@@ -1,10 +1,16 @@
 PODS:
+  - CocoaAsyncSocket (0.0.1)
+  - DPHue (0.0.1):
+    - CocoaAsyncSocket (~> 0.0.1)
   - PAPreferences (0.4)
 
 DEPENDENCIES:
+  - DPHue (~> 0.0)
   - PAPreferences (~> 0.4)
 
 SPEC CHECKSUMS:
+  CocoaAsyncSocket: 0b50442a741216b2fff60a7e6f84f6d71c18ee8a
+  DPHue: 11e3736fe1fbb864b4f9d7cab1a083b249ae2627
   PAPreferences: 3916ab2f4f332f0a9ed7d45c63dd628ea814a11c
 
 COCOAPODS: 0.35.0

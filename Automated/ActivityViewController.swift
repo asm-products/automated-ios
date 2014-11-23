@@ -18,11 +18,6 @@ class ActivityViewController: UIViewController {
 	
 	let ShowWelcomeViewIdentifier = "ShowWelcomeView"
 	
-
-	// MARK: IBOutlet
-	
-	@IBOutlet var welcomeViewController:WelcomeViewController?
-	
 	
 	// MARK: ActivityViewController
 	

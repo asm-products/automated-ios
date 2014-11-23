@@ -22,9 +22,12 @@
 		053A67591A22435600ED6A0F /* Trigger.swift in Sources */ = {isa = PBXBuildFile; fileRef = 053A67581A22435600ED6A0F /* Trigger.swift */; };
 		053A675B1A22435700ED6A0F /* DeviceNest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 053A675A1A22435700ED6A0F /* DeviceNest.swift */; };
 		053A675D1A22435700ED6A0F /* Activity.swift in Sources */ = {isa = PBXBuildFile; fileRef = 053A675C1A22435700ED6A0F /* Activity.swift */; };
-		053A67601A22440C00ED6A0F /* WelcomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 053A675F1A22440C00ED6A0F /* WelcomeViewController.swift */; };
+		053A67601A22440C00ED6A0F /* WelcomeDevicesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 053A675F1A22440C00ED6A0F /* WelcomeDevicesViewController.swift */; };
 		053A67631A22446900ED6A0F /* SettingsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 053A67621A22446900ED6A0F /* SettingsViewController.swift */; };
 		053A67681A22878B00ED6A0F /* UserPreferences.swift in Sources */ = {isa = PBXBuildFile; fileRef = 053A67671A22878B00ED6A0F /* UserPreferences.swift */; };
+		05FA15981A228DE1001F89C2 /* Devices.plist in Resources */ = {isa = PBXBuildFile; fileRef = 05FA15971A228DE1001F89C2 /* Devices.plist */; };
+		05FA159B1A2290A8001F89C2 /* WelcomeDeviceCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05FA159A1A2290A8001F89C2 /* WelcomeDeviceCollectionViewCell.swift */; };
+		05FA159E1A22931E001F89C2 /* DeviceConfiguration.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05FA159D1A22931E001F89C2 /* DeviceConfiguration.swift */; };
 		82C871DDD5825CCF82C7C161 /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = B69AB643E6099C981D632C7C /* libPods.a */; };
 /* End PBXBuildFile section */
 
@@ -58,10 +61,13 @@
 		053A67581A22435600ED6A0F /* Trigger.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Trigger.swift; sourceTree = "<group>"; };
 		053A675A1A22435700ED6A0F /* DeviceNest.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DeviceNest.swift; sourceTree = "<group>"; };
 		053A675C1A22435700ED6A0F /* Activity.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Activity.swift; sourceTree = "<group>"; };
-		053A675F1A22440C00ED6A0F /* WelcomeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WelcomeViewController.swift; sourceTree = "<group>"; };
+		053A675F1A22440C00ED6A0F /* WelcomeDevicesViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WelcomeDevicesViewController.swift; sourceTree = "<group>"; };
 		053A67621A22446900ED6A0F /* SettingsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SettingsViewController.swift; sourceTree = "<group>"; };
 		053A67671A22878B00ED6A0F /* UserPreferences.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UserPreferences.swift; sourceTree = "<group>"; };
 		053A67691A2287E900ED6A0F /* Automated-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Automated-Bridging-Header.h"; sourceTree = "<group>"; };
+		05FA15971A228DE1001F89C2 /* Devices.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Devices.plist; sourceTree = "<group>"; };
+		05FA159A1A2290A8001F89C2 /* WelcomeDeviceCollectionViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WelcomeDeviceCollectionViewCell.swift; sourceTree = "<group>"; };
+		05FA159D1A22931E001F89C2 /* DeviceConfiguration.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DeviceConfiguration.swift; sourceTree = "<group>"; };
 		5F6ACB1CC0CEBD5CA1C7002B /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
 		AE938E2814434FBE183A559F /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
 		B69AB643E6099C981D632C7C /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -109,14 +115,13 @@
 		053A67231A1FEFC400ED6A0F /* Automated */ = {
 			isa = PBXGroup;
 			children = (
+				05FA15961A2289EA001F89C2 /* Resources */,
+				05FA15941A2289CC001F89C2 /* View */,
 				053A674A1A21385F00ED6A0F /* Model */,
 				053A67461A21364300ED6A0F /* View Controller */,
-				053A67261A1FEFC400ED6A0F /* AppDelegate.swift */,
-				053A672A1A1FEFC400ED6A0F /* Main.storyboard */,
-				053A672D1A1FEFC400ED6A0F /* Images.xcassets */,
-				053A672F1A1FEFC400ED6A0F /* LaunchScreen.xib */,
 				053A67241A1FEFC400ED6A0F /* Supporting Files */,
 				053A67691A2287E900ED6A0F /* Automated-Bridging-Header.h */,
+				053A67261A1FEFC400ED6A0F /* AppDelegate.swift */,
 			);
 			path = Automated;
 			sourceTree = "<group>";
@@ -167,6 +172,7 @@
 		053A674A1A21385F00ED6A0F /* Model */ = {
 			isa = PBXGroup;
 			children = (
+				05FA159C1A22928B001F89C2 /* NSObject */,
 				053A67661A22874800ED6A0F /* Defaults */,
 				053A67641A22873600ED6A0F /* CoreData */,
 			);
@@ -176,7 +182,7 @@
 		053A675E1A2243E900ED6A0F /* Welcome */ = {
 			isa = PBXGroup;
 			children = (
-				053A675F1A22440C00ED6A0F /* WelcomeViewController.swift */,
+				053A675F1A22440C00ED6A0F /* WelcomeDevicesViewController.swift */,
 			);
 			name = Welcome;
 			sourceTree = "<group>";
@@ -211,6 +217,49 @@
 				053A67671A22878B00ED6A0F /* UserPreferences.swift */,
 			);
 			name = Defaults;
+			sourceTree = "<group>";
+		};
+		05FA15941A2289CC001F89C2 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				05FA15991A229093001F89C2 /* Welcome */,
+				053A672A1A1FEFC400ED6A0F /* Main.storyboard */,
+				05FA15951A2289D0001F89C2 /* Global */,
+			);
+			name = View;
+			sourceTree = "<group>";
+		};
+		05FA15951A2289D0001F89C2 /* Global */ = {
+			isa = PBXGroup;
+			children = (
+				053A672F1A1FEFC400ED6A0F /* LaunchScreen.xib */,
+			);
+			name = Global;
+			sourceTree = "<group>";
+		};
+		05FA15961A2289EA001F89C2 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				053A672D1A1FEFC400ED6A0F /* Images.xcassets */,
+				05FA15971A228DE1001F89C2 /* Devices.plist */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		05FA15991A229093001F89C2 /* Welcome */ = {
+			isa = PBXGroup;
+			children = (
+				05FA159A1A2290A8001F89C2 /* WelcomeDeviceCollectionViewCell.swift */,
+			);
+			name = Welcome;
+			sourceTree = "<group>";
+		};
+		05FA159C1A22928B001F89C2 /* NSObject */ = {
+			isa = PBXGroup;
+			children = (
+				05FA159D1A22931E001F89C2 /* DeviceConfiguration.swift */,
+			);
+			name = NSObject;
 			sourceTree = "<group>";
 		};
 		8492865034A3C6E37387025F /* Pods */ = {
@@ -314,6 +363,7 @@
 			files = (
 				053A672C1A1FEFC400ED6A0F /* Main.storyboard in Resources */,
 				053A67311A1FEFC400ED6A0F /* LaunchScreen.xib in Resources */,
+				05FA15981A228DE1001F89C2 /* Devices.plist in Resources */,
 				053A672E1A1FEFC400ED6A0F /* Images.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -372,10 +422,12 @@
 				053A67531A22435600ED6A0F /* ActivityAction.swift in Sources */,
 				053A67591A22435600ED6A0F /* Trigger.swift in Sources */,
 				053A67571A22435600ED6A0F /* DeviceHue.swift in Sources */,
+				05FA159B1A2290A8001F89C2 /* WelcomeDeviceCollectionViewCell.swift in Sources */,
 				053A67271A1FEFC400ED6A0F /* AppDelegate.swift in Sources */,
 				053A67511A22435600ED6A0F /* TriggerLocation.swift in Sources */,
 				053A674F1A22435600ED6A0F /* Device.swift in Sources */,
-				053A67601A22440C00ED6A0F /* WelcomeViewController.swift in Sources */,
+				053A67601A22440C00ED6A0F /* WelcomeDevicesViewController.swift in Sources */,
+				05FA159E1A22931E001F89C2 /* DeviceConfiguration.swift in Sources */,
 				053A67631A22446900ED6A0F /* SettingsViewController.swift in Sources */,
 				053A675D1A22435700ED6A0F /* Activity.swift in Sources */,
 				053A675B1A22435700ED6A0F /* DeviceNest.swift in Sources */,
