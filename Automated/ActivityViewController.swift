@@ -13,10 +13,37 @@
 import UIKit
 
 class ActivityViewController: UIViewController {
+	
+	// MARK: Static
+	
+	let ShowWelcomeViewIdentifier = "ShowWelcomeView"
+	
 
+	// MARK: IBOutlet
+	
+	@IBOutlet var welcomeViewController:WelcomeViewController?
+	
+	
+	// MARK: ActivityViewController
+	
+	private func checkAndShowWelcomeView() {
+		if(UserPreferences.sharedInstance().welcomeViewShownOnStartup == false) {
+			performSegueWithIdentifier(ShowWelcomeViewIdentifier, sender: self)
+		}
+	}
+	
+	
+	// MARK: UIViewController
+	
     override func viewDidLoad() {
         super.viewDidLoad()
     }
+	
+	override func viewDidAppear(animated: Bool) {
+		super.viewDidAppear(animated)
+		
+		checkAndShowWelcomeView()
+	}
 
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()

@@ -1,0 +1,10 @@
+PODS:
+  - PAPreferences (0.4)
+
+DEPENDENCIES:
+  - PAPreferences (~> 0.4)
+
+SPEC CHECKSUMS:
+  PAPreferences: 3916ab2f4f332f0a9ed7d45c63dd628ea814a11c
+
+COCOAPODS: 0.35.0
