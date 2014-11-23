@@ -14,6 +14,14 @@
 		053A673D1A1FEFC500ED6A0F /* AutomatedTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 053A673C1A1FEFC500ED6A0F /* AutomatedTests.swift */; };
 		053A67491A2136C000ED6A0F /* ActivityViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 053A67481A2136C000ED6A0F /* ActivityViewController.swift */; };
 		053A674D1A21389700ED6A0F /* Automated.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 053A674B1A21389700ED6A0F /* Automated.xcdatamodeld */; };
+		053A674F1A22435600ED6A0F /* Device.swift in Sources */ = {isa = PBXBuildFile; fileRef = 053A674E1A22435600ED6A0F /* Device.swift */; };
+		053A67511A22435600ED6A0F /* TriggerLocation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 053A67501A22435600ED6A0F /* TriggerLocation.swift */; };
+		053A67531A22435600ED6A0F /* ActivityAction.swift in Sources */ = {isa = PBXBuildFile; fileRef = 053A67521A22435600ED6A0F /* ActivityAction.swift */; };
+		053A67551A22435600ED6A0F /* TriggerTime.swift in Sources */ = {isa = PBXBuildFile; fileRef = 053A67541A22435600ED6A0F /* TriggerTime.swift */; };
+		053A67571A22435600ED6A0F /* DeviceHue.swift in Sources */ = {isa = PBXBuildFile; fileRef = 053A67561A22435600ED6A0F /* DeviceHue.swift */; };
+		053A67591A22435600ED6A0F /* Trigger.swift in Sources */ = {isa = PBXBuildFile; fileRef = 053A67581A22435600ED6A0F /* Trigger.swift */; };
+		053A675B1A22435700ED6A0F /* DeviceNest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 053A675A1A22435700ED6A0F /* DeviceNest.swift */; };
+		053A675D1A22435700ED6A0F /* Activity.swift in Sources */ = {isa = PBXBuildFile; fileRef = 053A675C1A22435700ED6A0F /* Activity.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -38,6 +46,14 @@
 		053A673C1A1FEFC500ED6A0F /* AutomatedTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AutomatedTests.swift; sourceTree = "<group>"; };
 		053A67481A2136C000ED6A0F /* ActivityViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ActivityViewController.swift; sourceTree = "<group>"; };
 		053A674C1A21389700ED6A0F /* Automated.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Automated.xcdatamodel; sourceTree = "<group>"; };
+		053A674E1A22435600ED6A0F /* Device.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Device.swift; sourceTree = "<group>"; };
+		053A67501A22435600ED6A0F /* TriggerLocation.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TriggerLocation.swift; sourceTree = "<group>"; };
+		053A67521A22435600ED6A0F /* ActivityAction.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ActivityAction.swift; sourceTree = "<group>"; };
+		053A67541A22435600ED6A0F /* TriggerTime.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TriggerTime.swift; sourceTree = "<group>"; };
+		053A67561A22435600ED6A0F /* DeviceHue.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DeviceHue.swift; sourceTree = "<group>"; };
+		053A67581A22435600ED6A0F /* Trigger.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Trigger.swift; sourceTree = "<group>"; };
+		053A675A1A22435700ED6A0F /* DeviceNest.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DeviceNest.swift; sourceTree = "<group>"; };
+		053A675C1A22435700ED6A0F /* Activity.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Activity.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -135,6 +151,14 @@
 			isa = PBXGroup;
 			children = (
 				053A674B1A21389700ED6A0F /* Automated.xcdatamodeld */,
+				053A675C1A22435700ED6A0F /* Activity.swift */,
+				053A675A1A22435700ED6A0F /* DeviceNest.swift */,
+				053A67581A22435600ED6A0F /* Trigger.swift */,
+				053A67561A22435600ED6A0F /* DeviceHue.swift */,
+				053A67541A22435600ED6A0F /* TriggerTime.swift */,
+				053A67521A22435600ED6A0F /* ActivityAction.swift */,
+				053A67501A22435600ED6A0F /* TriggerLocation.swift */,
+				053A674E1A22435600ED6A0F /* Device.swift */,
 			);
 			name = Model;
 			sourceTree = "<group>";
@@ -240,8 +264,16 @@
 			buildActionMask = 2147483647;
 			files = (
 				053A674D1A21389700ED6A0F /* Automated.xcdatamodeld in Sources */,
+				053A67551A22435600ED6A0F /* TriggerTime.swift in Sources */,
 				053A67491A2136C000ED6A0F /* ActivityViewController.swift in Sources */,
+				053A67531A22435600ED6A0F /* ActivityAction.swift in Sources */,
+				053A67591A22435600ED6A0F /* Trigger.swift in Sources */,
+				053A67571A22435600ED6A0F /* DeviceHue.swift in Sources */,
 				053A67271A1FEFC400ED6A0F /* AppDelegate.swift in Sources */,
+				053A67511A22435600ED6A0F /* TriggerLocation.swift in Sources */,
+				053A674F1A22435600ED6A0F /* Device.swift in Sources */,
+				053A675D1A22435700ED6A0F /* Activity.swift in Sources */,
+				053A675B1A22435700ED6A0F /* DeviceNest.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
