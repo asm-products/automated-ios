@@ -3,3 +3,4 @@
 //
 
 #import <PAPreferences/PAPreferences.h>
+#import <DCKeyValueObjectMapping/DCKeyValueObjectMapping.h>

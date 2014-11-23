@@ -9,6 +9,11 @@
 			<key>isShown</key>
 			<false/>
 		</dict>
+		<key>Pods-DCKeyValueObjectMapping.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
 		<key>Pods-DPHue.xcscheme</key>
 		<dict>
 			<key>isShown</key>
@@ -27,22 +32,27 @@
 	</dict>
 	<key>SuppressBuildableAutocreation</key>
 	<dict>
-		<key>130AD37E45D9789A063F7098</key>
+		<key>213B11B7792D122A180EA170</key>
 		<dict>
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>17A7240311C783437A2CDFF5</key>
+		<key>6FCA4BC9B90396B2C8B35BE7</key>
 		<dict>
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>1D9C718010FDEC2492C62603</key>
+		<key>9BB054C4CE20F021F16E1757</key>
 		<dict>
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>25A257AEB116FACCE8415189</key>
+		<key>A6A2C275597ADE168A221AA9</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>F5ECB3D530B024F30C3F0E0B</key>
 		<dict>
 			<key>primary</key>
 			<true/>

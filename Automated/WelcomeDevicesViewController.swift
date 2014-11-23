@@ -18,7 +18,7 @@ class WelcomeDevicesViewController: UIViewController, UICollectionViewDelegate, 
 	
 	// MARK: Data
 	
-	var devices:NSArray!
+	var devices = [DeviceProfile]()
 	
 	
 	// MARK: IBOutlet
@@ -28,6 +28,14 @@ class WelcomeDevicesViewController: UIViewController, UICollectionViewDelegate, 
 	
 	// MARK: WelcomeDevicesViewController
 	
+	private func loadDevices() {
+		let deviceListUrl = NSBundle.mainBundle().URLForResource(DeviceDefinitionFileName, withExtension: "plist")!
+		let deviceArray = NSArray(contentsOfURL: deviceListUrl) as Array<NSDictionary>
+		let parser = DCKeyValueObjectMapping.mapperForClass(DeviceProfile)
+		
+		devices = parser.parseArray(deviceArray) as [DeviceProfile]
+	}
+	
 	private func configureCollectionView() {
 		
 	}
@@ -36,16 +44,14 @@ class WelcomeDevicesViewController: UIViewController, UICollectionViewDelegate, 
 	// MARK: UICollectionViewDataSource
 	
 	func collectionView(collectionView: UICollectionView, numberOfItemsInSection section: Int) -> Int {
-		if(devices == nil) {
-			return 0
-		}
-		
 		return devices.count
 	}
 	
 	func collectionView(collectionView: UICollectionView, cellForItemAtIndexPath indexPath: NSIndexPath) -> UICollectionViewCell {
 		var collectionViewCell:WelcomeDeviceCollectionViewCell = collectionView.dequeueReusableCellWithReuseIdentifier(
 			WelcomeDeviceCollectionViewCellIdentifier, forIndexPath: indexPath) as WelcomeDeviceCollectionViewCell
+		
+		collectionViewCell.configureWithDevice(devices[indexPath.row])
 		
 		return collectionViewCell
 	}
@@ -69,8 +75,7 @@ class WelcomeDevicesViewController: UIViewController, UICollectionViewDelegate, 
 	required init(coder aDecoder: NSCoder) {
 		super.init(coder: aDecoder)
 		
-		var deviceListUrl:NSURL = NSBundle.mainBundle().URLForResource(DeviceDefinitionFileName, withExtension: "plist")!
-		devices = NSArray(contentsOfURL: deviceListUrl)
+		loadDevices()
 	}
 
 }

@@ -8,7 +8,7 @@
 
 import UIKit
 
-class DeviceConfiguration: NSObject {
+class DeviceProfile: NSObject {
  
 	var title:String?
 	var iconImageName:String?

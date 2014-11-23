@@ -27,7 +27,7 @@
 		053A67681A22878B00ED6A0F /* UserPreferences.swift in Sources */ = {isa = PBXBuildFile; fileRef = 053A67671A22878B00ED6A0F /* UserPreferences.swift */; };
 		05FA15981A228DE1001F89C2 /* Devices.plist in Resources */ = {isa = PBXBuildFile; fileRef = 05FA15971A228DE1001F89C2 /* Devices.plist */; };
 		05FA159B1A2290A8001F89C2 /* WelcomeDeviceCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05FA159A1A2290A8001F89C2 /* WelcomeDeviceCollectionViewCell.swift */; };
-		05FA159E1A22931E001F89C2 /* DeviceConfiguration.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05FA159D1A22931E001F89C2 /* DeviceConfiguration.swift */; };
+		05FA159E1A22931E001F89C2 /* DeviceProfile.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05FA159D1A22931E001F89C2 /* DeviceProfile.swift */; };
 		82C871DDD5825CCF82C7C161 /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = B69AB643E6099C981D632C7C /* libPods.a */; };
 /* End PBXBuildFile section */
 
@@ -67,7 +67,7 @@
 		053A67691A2287E900ED6A0F /* Automated-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Automated-Bridging-Header.h"; sourceTree = "<group>"; };
 		05FA15971A228DE1001F89C2 /* Devices.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Devices.plist; sourceTree = "<group>"; };
 		05FA159A1A2290A8001F89C2 /* WelcomeDeviceCollectionViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WelcomeDeviceCollectionViewCell.swift; sourceTree = "<group>"; };
-		05FA159D1A22931E001F89C2 /* DeviceConfiguration.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DeviceConfiguration.swift; sourceTree = "<group>"; };
+		05FA159D1A22931E001F89C2 /* DeviceProfile.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DeviceProfile.swift; sourceTree = "<group>"; };
 		5F6ACB1CC0CEBD5CA1C7002B /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
 		AE938E2814434FBE183A559F /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
 		B69AB643E6099C981D632C7C /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -257,7 +257,7 @@
 		05FA159C1A22928B001F89C2 /* NSObject */ = {
 			isa = PBXGroup;
 			children = (
-				05FA159D1A22931E001F89C2 /* DeviceConfiguration.swift */,
+				05FA159D1A22931E001F89C2 /* DeviceProfile.swift */,
 			);
 			name = NSObject;
 			sourceTree = "<group>";
@@ -427,7 +427,7 @@
 				053A67511A22435600ED6A0F /* TriggerLocation.swift in Sources */,
 				053A674F1A22435600ED6A0F /* Device.swift in Sources */,
 				053A67601A22440C00ED6A0F /* WelcomeDevicesViewController.swift in Sources */,
-				05FA159E1A22931E001F89C2 /* DeviceConfiguration.swift in Sources */,
+				05FA159E1A22931E001F89C2 /* DeviceProfile.swift in Sources */,
 				053A67631A22446900ED6A0F /* SettingsViewController.swift in Sources */,
 				053A675D1A22435700ED6A0F /* Activity.swift in Sources */,
 				053A675B1A22435700ED6A0F /* DeviceNest.swift in Sources */,

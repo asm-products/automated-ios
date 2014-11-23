@@ -11,9 +11,14 @@ import UIKit
 class WelcomeDeviceCollectionViewCell: UICollectionViewCell {
 	
 	@IBOutlet var deviceIconImageView:UIImageView!
+	@IBOutlet var enabledTickImageView:UIImageView!
 	
-	func configureWithDevice(device:DeviceConfiguration) {
+	func configureWithDevice(device:DeviceProfile) {
 		deviceIconImageView.image = UIImage(named: device.iconImageName!)
+	}
+
+	func setEnabled(enabled:Bool) {
+		enabledTickImageView.hidden = !enabled
 	}
 	
 }

@@ -14,7 +14,7 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "25A257AEB116FACCE8415189"
+               BlueprintIdentifier = "F5ECB3D530B024F30C3F0E0B"
                BuildableName = "libPods-DPHue.a"
                BlueprintName = "Pods-DPHue"
                ReferencedContainer = "container:Pods.xcodeproj">

@@ -12,6 +12,12 @@
 #define COCOAPODS_VERSION_MINOR_CocoaAsyncSocket 0
 #define COCOAPODS_VERSION_PATCH_CocoaAsyncSocket 1
 
+// DCKeyValueObjectMapping
+#define COCOAPODS_POD_AVAILABLE_DCKeyValueObjectMapping
+#define COCOAPODS_VERSION_MAJOR_DCKeyValueObjectMapping 1
+#define COCOAPODS_VERSION_MINOR_DCKeyValueObjectMapping 4
+#define COCOAPODS_VERSION_PATCH_DCKeyValueObjectMapping 0
+
 // DPHue
 #define COCOAPODS_POD_AVAILABLE_DPHue
 #define COCOAPODS_VERSION_MAJOR_DPHue 0
