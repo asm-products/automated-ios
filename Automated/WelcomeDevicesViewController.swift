@@ -63,11 +63,7 @@ class WelcomeDevicesViewController: UIViewController, UICollectionViewDelegate, 
 		var device = devices[indexPath.row]
 		var deviceModel = device.modelClass()
 		
-		deviceModel.authenticateWithSuccess({
-			
-		}, error: {
-				
-		})
+		
 	}
 	
 	

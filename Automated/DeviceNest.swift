@@ -14,7 +14,7 @@ class DeviceNest: Device, DeviceProtocol {
 
     @NSManaged var oauthToken: String
 	
-	func authenticateFromViewController(viewController: UIViewController, success: () -> (), error: () -> ()) {
+	override func authenticateFromViewController(viewController: UIViewController, success: () -> (), error: () -> ()) {
 		
 	}
 
