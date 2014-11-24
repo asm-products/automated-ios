@@ -57,6 +57,20 @@ class WelcomeDevicesViewController: UIViewController, UICollectionViewDelegate, 
 	}
 	
 	
+	// MARK: UICollectionViewDelegate
+	
+	func collectionView(collectionView: UICollectionView, didSelectItemAtIndexPath indexPath: NSIndexPath) {
+		var device = devices[indexPath.row]
+		var deviceModel = device.modelClass()
+		
+		deviceModel.authenticateWithSuccess({
+			
+		}, error: {
+				
+		})
+	}
+	
+	
 	// MARK: UIViewController
 
     override func viewDidLoad() {

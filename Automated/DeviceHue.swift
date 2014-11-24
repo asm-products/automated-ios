@@ -8,10 +8,15 @@
 
 import Foundation
 import CoreData
+import UIKit
 
-class DeviceHue: Device {
+class DeviceHue: Device, DeviceProtocol {
 
     @NSManaged var host: String
     @NSManaged var username: String
+	
+	func authenticateFromViewController(viewController: UIViewController, success: () -> (), error: () -> ()) {
+		
+	}
 
 }

@@ -8,9 +8,14 @@
 
 import Foundation
 import CoreData
+import UIKit
 
-class DeviceNest: Device {
+class DeviceNest: Device, DeviceProtocol {
 
     @NSManaged var oauthToken: String
+	
+	func authenticateFromViewController(viewController: UIViewController, success: () -> (), error: () -> ()) {
+		
+	}
 
 }

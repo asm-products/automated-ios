@@ -4,3 +4,5 @@
 
 #import <PAPreferences/PAPreferences.h>
 #import <DCKeyValueObjectMapping/DCKeyValueObjectMapping.h>
+#import <Firebase/Firebase.h>
+#import <NXOAuth2Client/NXOAuth2.h>

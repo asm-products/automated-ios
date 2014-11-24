@@ -7,12 +7,16 @@
 		<string>Hue</string>
 		<key>iconImageName</key>
 		<string>welcome_device_hue_logo</string>
+		<key>modelClassName</key>
+		<string>DeviceHue</string>
 	</dict>
 	<dict>
 		<key>title</key>
 		<string>Nest</string>
 		<key>iconImageName</key>
 		<string>welcome_device_nest_logo</string>
+		<key>modelClassName</key>
+		<string>DeviceNest</string>
 	</dict>
 </array>
 </plist>

@@ -3,17 +3,32 @@ PODS:
   - DCKeyValueObjectMapping (1.4)
   - DPHue (0.0.1):
     - CocoaAsyncSocket (~> 0.0.1)
+  - Firebase (1.2.3)
+  - NXOAuth2Client (1.2.8)
   - PAPreferences (0.4)
 
 DEPENDENCIES:
   - DCKeyValueObjectMapping (~> 1.4)
   - DPHue (~> 0.0)
+  - Firebase (~> 1.2.1)
+  - NXOAuth2Client (from `git@github.com:nickbabenko/OAuth2Client.git`)
   - PAPreferences (~> 0.4)
+
+EXTERNAL SOURCES:
+  NXOAuth2Client:
+    :git: git@github.com:nickbabenko/OAuth2Client.git
+
+CHECKOUT OPTIONS:
+  NXOAuth2Client:
+    :commit: 6514976e723cbfa629ae106331d2619e80cc1db9
+    :git: git@github.com:nickbabenko/OAuth2Client.git
 
 SPEC CHECKSUMS:
   CocoaAsyncSocket: 0b50442a741216b2fff60a7e6f84f6d71c18ee8a
   DCKeyValueObjectMapping: c3561709f296ddffba7768a9d7ccf234307fd3c9
   DPHue: 11e3736fe1fbb864b4f9d7cab1a083b249ae2627
+  Firebase: b396753207f45235159be6703fbf059e5cf72536
+  NXOAuth2Client: e8f427edba1fcea352fded560e3fcbb31c5a845b
   PAPreferences: 3916ab2f4f332f0a9ed7d45c63dd628ea814a11c
 
 COCOAPODS: 0.35.0

@@ -9,8 +9,12 @@
 import Foundation
 import CoreData
 
-class Device: NSManagedObject {
+class Device: NSManagedObject, DeviceProtocol {
 
     @NSManaged var actions: NSSet
+
+	func authenticateFromViewController(viewController: UIViewController, success: () -> (), error: () -> ()) {
+		assert(false, "Device authenticate method called. Extended class should also implement DeviceProtocol")
+	}
 
 }
