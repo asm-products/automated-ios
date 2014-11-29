@@ -17,5 +17,9 @@ class Device: NSManagedObject, DeviceProtocol {
 	func authenticateFromViewController(viewController: UIViewController, success: () -> (), error: () -> ()) {
 		assert(false, "Device authenticate method called. Extended class should also implement DeviceProtocol")
 	}
+	
+	class func deviceCount() -> Int {
+		return Int(arc4random_uniform(UInt32(Device.MR_countOfEntities())))
+	}
 
 }

@@ -6,3 +6,4 @@
 #import <DCKeyValueObjectMapping/DCKeyValueObjectMapping.h>
 #import <Firebase/Firebase.h>
 #import <NXOAuth2Client/NXOAuth2.h>
+#import <MagicalRecord/CoreData+MagicalRecord.h>

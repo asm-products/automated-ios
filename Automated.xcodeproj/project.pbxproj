@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		050BFE471A2A85CC00D62BF4 /* WebViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 050BFE461A2A85CC00D62BF4 /* WebViewController.swift */; };
 		053A67271A1FEFC400ED6A0F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 053A67261A1FEFC400ED6A0F /* AppDelegate.swift */; };
 		053A672C1A1FEFC400ED6A0F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 053A672A1A1FEFC400ED6A0F /* Main.storyboard */; };
 		053A672E1A1FEFC400ED6A0F /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 053A672D1A1FEFC400ED6A0F /* Images.xcassets */; };
@@ -45,6 +46,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		050BFE461A2A85CC00D62BF4 /* WebViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WebViewController.swift; sourceTree = "<group>"; };
 		053A67211A1FEFC400ED6A0F /* Automated.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Automated.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		053A67251A1FEFC400ED6A0F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		053A67261A1FEFC400ED6A0F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -98,6 +100,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		050BFE451A2A85B700D62BF4 /* Global */ = {
+			isa = PBXGroup;
+			children = (
+				050BFE461A2A85CC00D62BF4 /* WebViewController.swift */,
+			);
+			name = Global;
+			sourceTree = "<group>";
+		};
 		053A67181A1FEFC400ED6A0F = {
 			isa = PBXGroup;
 			children = (
@@ -163,6 +173,7 @@
 		053A67461A21364300ED6A0F /* View Controller */ = {
 			isa = PBXGroup;
 			children = (
+				050BFE451A2A85B700D62BF4 /* Global */,
 				053A67611A22445F00ED6A0F /* Settings */,
 				053A675E1A2243E900ED6A0F /* Welcome */,
 				053A67471A21365A00ED6A0F /* Activity */,
@@ -441,6 +452,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				053A674D1A21389700ED6A0F /* Automated.xcdatamodeld in Sources */,
+				050BFE471A2A85CC00D62BF4 /* WebViewController.swift in Sources */,
 				053A67681A22878B00ED6A0F /* UserPreferences.swift in Sources */,
 				053A67551A22435600ED6A0F /* TriggerTime.swift in Sources */,
 				054FB8841A23DAEF00FBCCF3 /* DeviceProtocol.swift in Sources */,

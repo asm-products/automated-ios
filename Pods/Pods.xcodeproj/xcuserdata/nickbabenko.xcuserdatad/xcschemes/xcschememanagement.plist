@@ -24,6 +24,11 @@
 			<key>isShown</key>
 			<false/>
 		</dict>
+		<key>Pods-MagicalRecord.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
 		<key>Pods-NXOAuth2Client.xcscheme</key>
 		<dict>
 			<key>isShown</key>
@@ -42,37 +47,42 @@
 	</dict>
 	<key>SuppressBuildableAutocreation</key>
 	<dict>
-		<key>1EA027527FD471F15F5E51F6</key>
+		<key>28C7C31E284953C5C9AB5C60</key>
 		<dict>
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>28FCD41FD8529758093BB7DC</key>
+		<key>3F2A620563B9B7558D714DE3</key>
 		<dict>
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>5760124C76BBD65B216DAE04</key>
+		<key>51CBBA5DC82D4F45A0E344A6</key>
 		<dict>
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>934950843F8833F73491E2CA</key>
+		<key>61DCBEAF22D539CCD5C98FFF</key>
 		<dict>
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>B818F8D5F5E198B9E71FC6AC</key>
+		<key>7AC4D887361809829118B938</key>
 		<dict>
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>E0C75EF201858ED0EA655BF6</key>
+		<key>85D6CE3C4714BE900DD35D5A</key>
 		<dict>
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>F537F5C72F630B40742A0761</key>
+		<key>C5D32ED4319D19EE227E92E4</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>CFCA66B816BF1AFF50623887</key>
 		<dict>
 			<key>primary</key>
 			<true/>

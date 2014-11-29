@@ -15,6 +15,10 @@ class WelcomeDeviceCollectionViewCell: UICollectionViewCell {
 	
 	func configureWithDevice(device:DeviceProfile) {
 		deviceIconImageView.image = UIImage(named: device.iconImageName!)
+		
+		if(device.modelClass().deviceCount() > 0) {
+			
+		}
 	}
 
 	func setEnabled(enabled:Bool) {

@@ -20,6 +20,8 @@ class GlobalConstants {
 	class var OAuthClientIdNest:String						{ return "65213391-3d53-4820-a8be-2210656209cf" }
 	class var OAuthClientSecretNest:String					{ return "67agUmMqcobOZQPvLsGX20Ynw" }
 	
-	class var KeyNestOAuthAccessToken:String		{ return "KeyNestOAuthAccessToken" }
+	class var KeyNestOAuthAccessToken:String				{ return "KeyNestOAuthAccessToken" }
+	
+	class var IdentifierWebView:String						{ return "IdentifierWebView" }
 	
 }
