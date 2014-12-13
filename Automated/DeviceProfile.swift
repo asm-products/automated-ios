@@ -15,8 +15,11 @@ class DeviceProfile: NSObject {
 	var modelClassName:String?
 	
 	func modelClass() -> Device.Type {
-		println("create model from class name: " + modelClassName!)
-		return NSClassFromString(modelClassName) as Device.Type
+		if(modelClassName == nil) {
+			NSException(name: "ClassNotSet", reason: "DeviceProfile.modelClass has no class name set", userInfo: nil).raise()
+		}
+				
+		return NSClassFromString(NSString(format: "Automated.%@", modelClassName!)) as Device.Type
 	}
 	
 }

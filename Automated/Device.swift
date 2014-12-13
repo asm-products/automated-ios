@@ -10,7 +10,7 @@ import Foundation
 import CoreData
 import UIKit
 
-class Device: NSManagedObject, DeviceProtocol {
+class Device: Base, DeviceProtocol {
 
     @NSManaged var actions: NSSet
 

@@ -9,7 +9,7 @@
 import Foundation
 import CoreData
 
-class Activity: NSManagedObject {
+class Activity: Base {
 
     @NSManaged var title: String
     @NSManaged var enabled: NSNumber

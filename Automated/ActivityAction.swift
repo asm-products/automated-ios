@@ -9,7 +9,7 @@
 import Foundation
 import CoreData
 
-class ActivityAction: NSManagedObject {
+class ActivityAction: Base {
 
     @NSManaged var method: String
     @NSManaged var arguments: AnyObject

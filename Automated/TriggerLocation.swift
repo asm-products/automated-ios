@@ -9,7 +9,7 @@
 import Foundation
 import CoreData
 
-class TriggerLocation: NSManagedObject {
+class TriggerLocation: Base {
 
     @NSManaged var radius: NSNumber
     @NSManaged var latitude: NSNumber

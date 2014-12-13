@@ -9,7 +9,7 @@
 import Foundation
 import CoreData
 
-class TriggerTime: NSManagedObject {
+class TriggerTime: Base {
 
     @NSManaged var startTime: NSDate
     @NSManaged var endTime: NSDate

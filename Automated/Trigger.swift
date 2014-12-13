@@ -9,7 +9,7 @@
 import Foundation
 import CoreData
 
-class Trigger: NSManagedObject {
+class Trigger: Base {
 
     @NSManaged var action: NSManagedObject
 
