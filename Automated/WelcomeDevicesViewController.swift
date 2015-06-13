@@ -61,9 +61,16 @@ class WelcomeDevicesViewController: UIViewController, UICollectionViewDelegate, 
 	
 	func collectionView(collectionView: UICollectionView, didSelectItemAtIndexPath indexPath: NSIndexPath) {
 		var device = devices[indexPath.row]
-		var deviceModel = device.modelClass()
+		var deviceModelClass = device.modelClass()
+		var deviceModel = deviceModelClass() as Device
 		
-		
+		deviceModel.authenticateFromViewController(self,
+			success: {
+				collectionView.reloadData()
+			},
+			error: {
+				
+			})
 	}
 	
 	

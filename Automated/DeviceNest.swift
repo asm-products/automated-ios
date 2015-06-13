@@ -34,6 +34,10 @@ class DeviceNest: Device, DeviceProtocol, UIWebViewDelegate {
 		
 		viewController.navigationController?.presentViewController(webViewController!, animated: true, completion: nil)
 		
+		if(webViewController?.webView == nil) {
+			println("null webview")
+		}
+		
 		webViewController?.webView.delegate = self
 		
 		// Request access token and load web view auth page
